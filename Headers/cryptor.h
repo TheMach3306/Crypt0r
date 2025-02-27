@@ -7,7 +7,7 @@
 
 #ifndef PATH_SEP
 #ifdef _WIN32 or _WIN64
-#define PATH_SEP_CHAR "\"
+#define PATH_SEP_CHAR "\\"
 #define SYS_ROOT "C:"
 #else
 #define PATH_SEP "/"
